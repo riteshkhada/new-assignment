@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>bootstrap project by Ritesh Khadka</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <link href="main/favicon.png" rel="icon">
+  <link href="main/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .dropdown-submenu {
+      position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+
+      left: -10rem;
+
+      backface-visibility: hidden !important;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header id="header" class="fixed-top">
+
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light navbar-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">FlY HiGH</a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="reservation.html">Reservation</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">The Hotel</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meetings and Events</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Special offers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Amenities
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <li class="dropdown-submenu">
+                  <a class="test dropdown-toggle" tabindex="-1" href="#">Outlets</a>
+                  <ul class="dropdown-menu">
+
+
+                    <li class="dropdown-submenu">
+                      <a class="test dropdown-toggle " tabindex="-1" href="#">Rooms</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Deluxe</a></li>
+                        <li><a class="dropdown-item" href="#">Twin</a></li>
+                        <li><a class="dropdown-item" href="#">Suite</a></li>
+                        <li><a class="dropdown-item" href="#">presidential Suite</a></li>
+
+                      </ul>
+
+                    <li><a class="dropdown-item" href="#">Restaurant</a></li>
+                    <li><a class="dropdown-item" href="#">Bar</a></li>
+                    <li><a class="dropdown-item" href="#">Coffee Shop</a></li>
+                    <li><a class="dropdown-item" href="#">Banquet</a></li>
+                </li>
+              </ul>
+            <li><a class="dropdown-item" href="#">Swimming Pool</a></li>
+            <li><a class="dropdown-item" href="#">Transportation</a></li>
+            <li><a class="dropdown-item" href="#">Gym Center</a></li>
+          </ul>
+          </ul>
+          </li>
+          </ul>
+
+          <form class="d-flex search-form search" method="get" action="#">
+
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="s">
+
+            <button class="btn btn-outline-success search-button d-block" type="submit">
+              <i class="fas fa-search"></i>
+
+
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"  data-bs-interval="4000">
+        <img src="main/carousel-slide-5.jpg" class="d-block w-100 carousel-image" alt="image">
+        <div class="carousel-caption">
+          <h5>"Life’s too short for boring food."</h5>
+         <!--- Play with your food!
+          A taste of home
+          Delight in every bite
+          We’ve got something for everyone.
+          Eat. Drink. Love.
+          Every meal is a happy meal-->
+
+
+          <p>Chilling out on the bed in your hotel room watching television, 
+            while wearing your own pajamas, is sometimes the best part of a vacation.
+            Super-luxury hotels are being built in outer space. The new type of heaven is being offered to humans.
+            When you get into a hotel room, you lock the door, 
+            and you know there is a secrecy, there is a luxury, there is fantasy. 
+            There is comfort. There is reassurance.
+            An old small hotel is much more valuable than a seven-star hotel because the former has a spirit and a
+             literary posture!
+
+            
+
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item"  data-bs-interval="4000">
+        <img src="main/carousel8.jpg" class="d-block w-100 carousel-image" alt="image">
+        <div class="carousel-caption">
+          <h5>"A taste of home,
+            Delight in every bite."</h5>
+          <p>When you come to a hotel room, you want it to be grand, functional and beautiful. 
+            But you don't want things that are not useful. 
+            Sometimes you go to hotels and there are all these frames and pictures of people you don't know, 
+            and you end up hiding everything in the drawer, 
+            and then housekeeping come and put it out again.</p>
+        </div>
+      </div>
+      <div class="carousel-item"  data-bs-interval="4000">
+        <img src="main/carousel9.jpg" class="d-block w-100 carousel-image" alt="image">
+        <div class="carousel-caption">
+          <h5>
+            "Every meal is a happy meal."</h5>
+          <p>As the hotel is a meeting place of social elites, 
+            all the grace and etiquette associated with good society comes into play.
+            When Biratnagarians in their little platoons struggle to make life a little better for themselves
+            and for their fellow countrymen, they develop the affections and traditions which make our hotel a home.
+
+            
+</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <script>
+   $(document).ready(function () {
+      $('.dropdown-submenu a.test').on("click", function (e) {
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+      });
+    });
+  </script>
+            <div class="reviews">
+             <div class="user-reviews">
+                 <div class="user-reviews-box">
+                     <div class="user-reviews-picture">
+                        <img src="main/user-2.jpg" alt="image" class="image">
+                        <h4 class="heading-4">Executive Housekeeper</h4>
+                        <p class="reviews-paragraph">
+                          Good Food is the foundation of genuine happiness.
+                        Best accommodation and delicious food in heart of Biratnagar City.  
+                        Gorgeous room with fabulous view but the best was the staff. 
+                        
+                     </p>
+                     <div class="user-reviews-icons">
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                     </div>
+           </div>
+        </div>
+             </div>
+        
+   
+            <div class="user-reviews">
+               <div class="user-reviews-box">
+                  <div class="user-reviews-picture">
+                    <img src="main/user-5.jpg" alt="image" class="image">
+                      <h4 class="heading-4">Executive Chef</h4>
+                      <p class="reviews-paragraph">
+                       
+                  Our room was beyond expectations,
+                  our sincere thanks for helping your "mountain living" guest a real hill experience .
+                  We look fwd to returning.
+                  It's not a Hotel.It's a way of Life.Treated with better Hopitality.
+                      </p>
+                      <div class="user-reviews-icons">
+                        <a href="https://www.facebook.com/gauravshresthh"><i class="fab fa-facebook"></i></a>
+                       <a href="https://www.instagram.com/gauravshresthh"> <i class="fab fa-instagram"></i></a>
+                       <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+               </div>
+            </div>
+            </div>
+
+              <div class="user-reviews">
+                  <div class="user-reviews-box">
+                       <div class="user-reviews-picture">
+                            <img src="main/user-6.jpg" alt="image" class="image">
+                                <h4 class="heading-4">General Manager</h4>
+                                   <p class="reviews-paragraph">
+                                    The views and sound from the top hills were splendid!
+                                    The staff was attentive and friendly. 
+                                    A wonderful mini-vacation!
+                                    Best food, Best services, Best environment, Best hospitality.
+                                    Best place to celebrate your holidays.
+                                   </p>
+                                   <div class="user-reviews-icons">
+                                    <a href="https://www.facebook.com/rites.khadka.5"><i class="fab fa-facebook"></i></a>
+                                   <a href="#"> <i class="fab fa-instagram"></i></a>
+                                   <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </div>
+                         </div>
+                     </div>
+              </div>
+            </div>
+          
+                <button type="button" class="btn btn-primary primary-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Get Started
+               </button>
+
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalLabel">RESERVATION?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                         <div class="modal-body">
+                         Don't wait for too long to visit and stay with us.
+                         it's really amazing and great.We serve fresh foods with hospitality manner.
+                         We believe that <span>"GUEST IS GOD"</span>So,we don't give a chance for dissatisfaction.
+                        
+                         
+                      </div>
+                   <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+           </div>
+       </div>
+     </div>
+  </div> 
+       
+  <div class="container">
+
+    <footer class="text-white text-center text-lg-start  footer-main">
+      <div class="container-main p-4">
+        
+        <div class="row mt-9">
+        
+          <div class="col-lg-4 col-md-12 mb-4 mb-md-0 about-company">
+            <h5 class="text-uppercase mb-4 heading-text">About company</h5>
+  
+            <p>
+              The Hyatt Regency Hotel in Biratnagar, Nepal, 
+              is an urban five-star resort located near the Boudhanath stupa.
+              The establishment of the hotel was approved in 1992[9] under public–private partnership.
+               The hotel, opened in 2000, is built  on 37 acres of land. 
+               The hotel employs around 400 workers, 320 of them affiliated to All Nepal Hotel,
+                Casino and Restaurant Workers Union. The public investment amounted to Rs 170 million (40%); the private investment was Rs257.5 million (60%). 
+                It recorded losses for 22 years, 
+                during which the public ownership of the hotel shrunk to 9%, and later began registering record profits. 
+              The public land on which the hotel was built was in the process of being privatised at extremely cheap rates.
+            </p>
+  
+            <div class="link-icons mt-4">
+             
+              <a type="button" class="btn-icon btn-floating btn-dark btn-sm" href="#"><i class="fab fa-facebook"></i></a>
+            
+              <a type="button" class="btn-icon btn-floating btn-dark btn-sm" href="#"><i class="fab fa-instagram"></i></a>
+            
+              <a type="button" class="btn-icon btn-floating btn-dark btn-sm" href="#"><i class="fab fa-twitter"></i></a>
+             
+             
+            
+            </div>
+          </div>
+         
+  
+         
+          <div class="search-something col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 pb-1 heading-5">Search something</h5>
+  
+            <div class="search-form form-outline form-white mb-4">
+              <input type="text" id="formControl" class="form-control form-control-md">
+             
+            </div>
+  
+            <ul class="fa-ul location" style="margin-left: 1.65em;">
+              <li class="mb-3">
+                <span class="fa-li location-date"><i class="fas fa-home" style="color:rgba(0, 0, 0, 0.452)"></i></span><span class="ms-2 span-text" style="color:white">Biratnagar, 00-967, Morang</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li location-mail"><i class="fas fa-envelope" style="color: rgba(255, 255, 0, 0.644);"></i></span><span class="ms-2 span-text"style="color:white">khadkaritesh45@gmail.com</span>
+              </li>
+              <li class="mb-3">
+                <span class="fa-li location-number"><i class="fas fa-phone" style="color: green;"></i></span><span class="ms-2 span-text" style="color: white">9804323142</span>
+              </li>
+            </ul>
+          </div>
+         
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 opening-hours">
+            <h5 class="text-uppercase mb-4">Opening hours</h5>
+  
+            <table class="table text-center text-white">
+              <tbody class="fw-normal">
+                <tr>
+                  <td>Sunday:</td>
+                  <td>8am - 9pm</td>
+                </tr>
+                <tr>
+                  <td>Mon-Thu:</td>
+                  <td>8am - 10pm</td>
+                </tr>
+                <tr>
+                  <td>Friday:</td>
+                  <td>9am - 1pm</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+         
+        </div>
+       
+      </div>
+     
+    
+    </footer>
+  
+  </div>
+  <div class="text-center p-3 copyright-main">
+    © 2020 Copyright @  Ritesh Khadka 2021 . All Rights Reserved . 
+   
+  </div>
+
+</body>
+</html> 
